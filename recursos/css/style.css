@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgray;
+}
+
+header {
+    text-align: center;
+}
+
+.portada {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.presentacion {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 20px;
+    color: black;
+}
+
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+article {
+    background-color: rgb(226, 226, 226);
+    padding: 2% 2% 2% 5%;
+    border-radius: 10px;
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+}
+
+#hobbies ul {
+    list-style: circle;
+}
+
+#hobbies li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+#hobbies li img {
+    padding-left: 5px;
+}
+
+#mapache{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    article {
+        flex: 1 1 100%;
+    }
+}
